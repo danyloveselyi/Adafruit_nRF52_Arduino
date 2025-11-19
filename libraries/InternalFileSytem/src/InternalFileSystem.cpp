@@ -1,4 +1,4 @@
-/* 
+/*
  * The MIT License (MIT)
  *
  * Copyright (c) 2019 hathach for Adafruit Industries
@@ -31,7 +31,7 @@
   #define LFS_FLASH_ADDR        0x6D000
 #endif
 
-#define LFS_FLASH_TOTAL_SIZE  (7*FLASH_NRF52_PAGE_SIZE)
+#define LFS_FLASH_TOTAL_SIZE  (8*FLASH_NRF52_PAGE_SIZE)
 #define LFS_BLOCK_SIZE        128
 
 //--------------------------------------------------------------------+
