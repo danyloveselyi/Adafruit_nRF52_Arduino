@@ -110,7 +110,7 @@ static struct lfs_config _InternalFSConfig =
   .prog_size = LFS_BLOCK_SIZE,
   .block_size = LFS_BLOCK_SIZE,
   .block_count = LFS_FLASH_TOTAL_SIZE / LFS_BLOCK_SIZE,
-  .lookahead = 64,
+  .lookahead = 128,
 
   .read_buffer = NULL,
   .prog_buffer = NULL,
