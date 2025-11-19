@@ -31,7 +31,7 @@
   #define LFS_FLASH_ADDR        0x6D000
 #endif
 
-#define LFS_FLASH_TOTAL_SIZE  (8*FLASH_NRF52_PAGE_SIZE)
+#define LFS_FLASH_TOTAL_SIZE  (17*FLASH_NRF52_PAGE_SIZE)
 #define LFS_BLOCK_SIZE        128
 
 //--------------------------------------------------------------------+
@@ -110,7 +110,7 @@ static struct lfs_config _InternalFSConfig =
   .prog_size = LFS_BLOCK_SIZE,
   .block_size = LFS_BLOCK_SIZE,
   .block_count = LFS_FLASH_TOTAL_SIZE / LFS_BLOCK_SIZE,
-  .lookahead = 128,
+  .lookahead = 64,
 
   .read_buffer = NULL,
   .prog_buffer = NULL,
